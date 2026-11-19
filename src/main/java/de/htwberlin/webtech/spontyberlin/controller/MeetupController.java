@@ -1,12 +1,13 @@
 package de.htwberlin.webtech.spontyberlin.controller;
 
 import de.htwberlin.webtech.spontyberlin.model.Meetup;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
 
-
+@CrossOrigin(origins = "http://localhost:5173")
 @RestController
 public class MeetupController {
 
